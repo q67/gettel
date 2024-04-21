@@ -1,3 +1,3 @@
-module github.com/q67/go_hw_gettel
+module github.com/q67/gettel
 
 go 1.21.6
