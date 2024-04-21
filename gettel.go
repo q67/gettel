@@ -10,9 +10,7 @@ func GetTel(text string) []string {
 
 	nums := reg.FindAllString(text, -1)
 
-	for _, num := range nums {
-		tels = append(tels, num)
-	}
+	tels = append(tels, nums...)
 
 	return tels
 }
